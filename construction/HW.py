@@ -10,20 +10,20 @@ print('opened database')
 
 #creat a new table in given database with nentioned constraints
 
-conn.execute("""CREATE TABLE CLASS_10111(games i made,how many player they had in a month,deleted or not);""")
+conn.execute("""CREATE TABLE CLASS_10111(games i made,how many player they had in a month,year,deleted or not);""")
 
 print('tabe created')
 
 #enter data for 3 diffrent entries
-conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,deleted or not)\
-VALUES('scorps takeover',1100,'deleted')");
+conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,year,deleted or not)\
+VALUES('scorps takeover',1100,'2025',deleted')");
 
 
-conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,deleted or not)\
-VALUES('planet zenac',153,'deleted')");
+conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,year,deleted or not)\
+VALUES('planet zenac',153,2024'deleted')");
 
-conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,deleted or not)\
-VALUES('first game',50,'deleted')");
+conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,year,deleted or not)\
+VALUES('first game',50,'2023',deleted')");
 
 #save the cahnges
 conn.commit()
