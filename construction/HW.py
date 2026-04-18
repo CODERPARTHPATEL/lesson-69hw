@@ -16,7 +16,7 @@ print('tabe created')
 
 #enter data for 3 diffrent entries
 conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,year,deleted or not)\
-VALUES('scorps takeover',1100,'2025',deleted')");
+VALUES('scorps takeover',1100,'2024',deleted')");
 
 
 conn.execute("INSERT INTO CLASS_10111(games i made,how many player they have in a month,year,deleted or not)\
